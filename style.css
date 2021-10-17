@@ -1,0 +1,13 @@
+.leftside{
+    background: rgb(139, 132, 0);
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.rightside{
+    background: darkblue;
+    width: 50%;
+    height: 400px;
+    float: left;
+
+}
