@@ -1,13 +1,21 @@
-.leftside{
-    background: rgb(139, 132, 0);
-    width: 50%;
-    height: 400px;
-    float: left;
+.hero-image{
+    position: relative;
+    height:500px ;
+    overflow: hidden;
+    background: url(../images/1.jpg) no-repeat center;
+    background-size: cover;
 }
-.rightside{
-    background: darkblue;
-    width: 50%;
-    height: 400px;
-    float: left;
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    text-align: right;
+    padding-right: 0px;
+    color: rgb(0, 0, 0);
 
+}
+.container h1{
+    font-size: 72px;
 }
