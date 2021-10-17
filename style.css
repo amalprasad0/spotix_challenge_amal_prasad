@@ -7,15 +7,18 @@
 }
 .container{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 10%;
+    left: 61%;
     transform: translate(-50%,-50%);
     overflow: hidden;
-    text-align: right;
+    text-align: top;
     padding-right: 0px;
     color: rgb(0, 0, 0);
 
 }
 .container h1{
     font-size: 72px;
+}
+.container h1{
+    
 }
