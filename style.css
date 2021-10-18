@@ -7,11 +7,11 @@
 }
 .container{
     position: absolute;
-    top: 10%;
-    left: 61%;
-    transform: translate(-50%,-50%);
+    top: 80%;
+    left: 51%;
+    transform: translate(-50%,-0%);
     overflow: hidden;
-    text-align: top;
+    text-align: center;
     padding-right: 0px;
     color: rgb(0, 0, 0);
 
@@ -19,6 +19,6 @@
 .container h1{
     font-size: 72px;
 }
-.container h1{
-    
+#quote{
+    padding-left: 70px;
 }
