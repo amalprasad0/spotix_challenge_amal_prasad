@@ -5,7 +5,7 @@
     background: url(../images/1.jpg) no-repeat center;
     background-size: cover;
 }
-.container{
+.container-hero{
     position: absolute;
     top: 80%;
     left: 51%;
@@ -16,9 +16,102 @@
     color: rgb(0, 0, 0);
 
 }
-.container h1{
+.container-hero h1{
     font-size: 72px;
 }
 #quote{
     padding-left: 70px;
 }
+
+
+/*  */
+body {
+    background-color: #B71C1C
+}
+
+.wrapper {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card1 {
+    height: 420px;
+    width: 320px;
+    background-color: #C62828;
+    border-radius: 60px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: center !important
+}
+
+.card1::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    top: -50%;
+    background-color: #EF5350;
+    transform: skewY(345deg);
+    transition: 2s ease-in
+}
+
+.card1:hover::before {
+    top: -70%;
+    transform: skewY(390deg)
+}
+
+.card1 .image {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.card1 .image img {
+    max-width: 100%;
+    transition: 2s ease-in
+}
+
+.card1:hover .image img {
+    width: 80%
+}
+
+.about-product {
+    position: absolute;
+    color: #fff;
+    bottom: -50px !important;
+    text-align: center;
+    left: 20%;
+    transition: 2s ease-in
+}
+
+.card1:hover .about-product {
+    bottom: 20px !important
+}
+
+.buy-now {
+    color: #fff;
+    background-color: #ef5350 !important;
+    border-color: #ef5350 !important;
+    width: 160px;
+    margin-top: 20px
+}
+
+.buy-now:focus {
+    box-shadow: 10px
+}
+
+.buy-now:hover {
+    color: #fff;
+    background-color: #e84040 !important;
+    border-color: #e84040 !important
+}
+
+
+
+/* hotel card */
