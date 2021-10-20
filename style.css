@@ -2,7 +2,7 @@
     position: relative;
     height:500px ;
     overflow: hidden;
-    background: url(../images/1.jpg) no-repeat center;
+    background: url(../images/1p.jpg) no-repeat center;
     background-size: cover;
 }
 .container-hero{
