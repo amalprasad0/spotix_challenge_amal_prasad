@@ -119,3 +119,31 @@ body {
 .checked {
     color: orange;
   }
+
+
+
+  /*  */
+  .hero1-image1{
+    position: relative;
+    height:500px ;
+    overflow: hidden;
+    background: url(../images/7 b.jpg) no-repeat center;
+    background-size: cover;
+}
+.container-hero1{
+    position: absolute;
+    top: 80%;
+    left: 51%;
+    transform: translate(-50%,-0%);
+    overflow: hidden;
+    text-align: center;
+    padding-right: 0px;
+    color: rgb(0, 0, 0);
+
+}
+.container-hero1 h1{
+    font-size: 72px;
+}
+#quote{
+    padding-left: 70px;
+}
