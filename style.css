@@ -115,3 +115,7 @@ body {
 
 
 /* hotel card */
+
+.checked {
+    color: orange;
+  }
